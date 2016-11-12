@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Albins Bookshelf</title>
+    <meta name="description" content="Albin Larssons books repository" />
+    <meta property="og:description" content="Albin Larssons books repository" />
+    <meta name="author" content="Albin Larsson" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>My Books</h1>
+
+    <div id="books">
+      <div>
+        <input class="search" type="text" placeholder="Search..." autofocus /><br />
+        <div class="sort-control">
+          <span>Sort by: </span>
+          <button class="sort" id="sort-series" style="border: 1px solid #77E3FF;">series</button>
+          <button class="sort" id="sort-category" style="border: 1px solid #FF4747;">subject</button>
+        </div>
+      </div>
+      <ul class="list"></ul>
+    </div>
+    <span class="count"></span>
+  </body>
+</html>
