@@ -70,6 +70,13 @@
     "notes": ""
   },
   {
+    "title": "Hellefors Bruk, En resa i Tiden",
+    "authors": "Jouko O Pajulampi",
+    "category": "history",
+    "series": "",
+    "notes": ""
+  },
+  {
     "title": "Skämtteckningar Serier Karikatyrer",
     "authors": "Ross Thomson, Bill Hewison",
     "category": "other",
@@ -392,6 +399,13 @@
     "notes": ""
   },
   {
+    "title": "Onkels Toms stuga",
+    "authors": "Harriet Beecher Stowe",
+    "category": "children's novel",
+    "series": "",
+    "notes": ""
+  },
+  {
     "title": "H. C. Andersens bästa sagor",
     "authors": "H. C. Andersen",
     "category": "children's novel",
@@ -570,6 +584,111 @@
     "title": "Prövad oskuld",
     "authors": "Agatha Christie",
     "category": "crime fiction",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Svart Fjäril",
+    "authors": "Anna Jansson",
+    "category": "novel",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Trädgudarnas land",
+    "authors": "Jan Fridegård",
+    "category": "novel",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Många nollor",
+    "authors": "Robert Nyberg",
+    "category": "other",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Göran och draken",
+    "authors": "Ulf Stark",
+    "category": "history",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Mina bästa sagor",
+    "authors": "",
+    "category": "other",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Löpning",
+    "authors": "Rachel Newcombe",
+    "category": "sports",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Vilda blommor",
+    "authors": "Wolfgang Gewalt, Friedrich Ostenrath",
+    "category": "botany",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Svampar i naturen",
+    "authors": "Sven Nilsson, Olle Persson",
+    "category": "botany",
+    "series": "",
+    "notes": "Illustrerad av Bo Mossberg"
+  },
+  {
+    "title": "Fältflora",
+    "authors": "Björn Ursling",
+    "category": "botany",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Mossflora",
+    "authors": "Björn Bergenståhl, Didrik Weber-Grönwall, Lars Söderström, Per Johan Ulfendahl, Anders Nordlund",
+    "category": "botany",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Cubicle Commando",
+    "authors": "Lisa Messenger, Zern Liew",
+    "category": "other",
+    "series": "",
+    "notes": "Given to me by Liew"
+  },
+  {
+    "title": "Får hackspettar huvudvärk?",
+    "authors": "Paul Heiney",
+    "category": "other",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Bågens mästare",
+    "authors": "Conn Iggulden",
+    "category": "novel",
+    "series": "Djingis Khan - Historiens störste erövrare",
+    "notes": ""
+  },
+  {
+    "title": "Vid Korsvägen",
+    "authors": "Kevin Crossley-Holland",
+    "category": "novel",
+    "series": "Arthur",
+    "notes": ""
+  },
+  {
+    "title": "Ofärd",
+    "authors": "Dick Harrison",
+    "category": "novel",
     "series": "",
     "notes": ""
   },
@@ -826,9 +945,23 @@
     "notes": ""
   },
   {
+    "title": "Vikingar myt och verklighet",
+    "authors": "Anna Sandström",
+    "category": "history",
+    "series": "",
+    "notes": ""
+  },
+  {
     "title": "Godnatt Mister Tom",
     "authors": "Michelle Magorian",
     "category": "children's novel",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Varning för vägmärken",
+    "authors": "Samuel Paulsson",
+    "category": "other",
     "series": "",
     "notes": ""
   },
