@@ -560,6 +560,13 @@
     "notes": ""
   },
   {
+    "title": "Bombmakaren och hans kvinna",
+    "authors": "Leif G. W. Persson",
+    "category": "crime fiction",
+    "series": "",
+    "notes": ""
+  },
+  {
     "title": "Varför bad de inte Evans?",
     "authors": "Agatha Christie",
     "category": "crime fiction",
@@ -773,7 +780,21 @@
     "title": "Bondens landskap",
     "authors": "Hjalmar Dahm, Stefan Edman, Tore Hagman",
     "category": "botany",
-    "series": "",
+    "series": "Sveriges Natur",
+    "notes": ""
+  },
+  {
+    "title": "Genvägar",
+    "authors": "Agneta Arnesson-Westerdahl, Roger Olsson",
+    "category": "botany",
+    "series": "Sveriges Natur",
+    "notes": ""
+  },
+  {
+    "title": "Kretslopp",
+    "authors": "Nils Tiberg",
+    "category": "botany",
+    "series": "Sveriges Natur",
     "notes": ""
   },
   {
@@ -781,6 +802,13 @@
     "authors": "Erik Larsson",
     "category": "botany",
     "series": "Sveriges Natur",
+    "notes": ""
+  },
+    {
+    "title": "Smart mat för löpare",
+    "authors": "Kristina Andersson",
+    "category": "sports",
+    "series": "",
     "notes": ""
   },
   {
@@ -815,6 +843,27 @@
     "title": "Arkeologiska upptäckter i Sverige",
     "authors": "Anna Lihammer",
     "category": "archaeology",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Arkeologi",
+    "authors": "Andrew Sherratt",
+    "category": "archaeology",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Krigsdagböcker 1939-1945",
+    "authors": "Astrid Lindgren",
+    "category": "history",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Miljöfysik - Energi och klimat",
+    "authors": "Mats Areskoug",
+    "category": "other",
     "series": "",
     "notes": ""
   },
@@ -996,6 +1045,13 @@
   {
     "title": "Överlevnadshandboken",
     "authors": "John Wiseman",
+    "category": "other",
+    "series": "",
+    "notes": ""
+  },
+  {
+    "title": "Ägg",
+    "authors": "Tove Nilsson",
     "category": "other",
     "series": "",
     "notes": ""
