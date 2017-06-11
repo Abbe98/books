@@ -735,6 +735,13 @@
     "notes": ""
   },
   {
+    "title": "Madame Terror",
+    "authors": "Jan Guillou",
+    "category": "novel",
+    "series": "Hamilton",
+    "notes": ""
+  },
+  {
     "title": "En medborgare höjd över varje misstanke",
     "authors": "Jan Guillou",
     "category": "novel",
@@ -1007,6 +1014,14 @@
     "series": "",
     "notes": ""
   },
+
+  {
+    "title": "Poltava",
+    "authors": "Peter Englund",
+    "category": "history",
+    "series": "",
+    "notes": ""
+  },
   {
     "title": "Godnatt Mister Tom",
     "authors": "Michelle Magorian",
@@ -1018,13 +1033,6 @@
     "title": "Varning för vägmärken",
     "authors": "Samuel Paulsson",
     "category": "other",
-    "series": "",
-    "notes": ""
-  },
-  {
-    "title": "Vinnare i långa loppet",
-    "authors": "",
-    "category": "sports",
     "series": "",
     "notes": ""
   },
