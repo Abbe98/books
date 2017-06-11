@@ -1,41 +1,40 @@
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'books.json', true);
-xhr.onreadystatechange = function() {
-  if (xhr.readyState == 4) {
-    if (xhr.status >= 200 && xhr.status < 300) {
-      var data = JSON.parse(xhr.responseText);
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
 
-      var options = {
-        valueNames: ['title', 'authors', 'category', 'series', 'notes'],
-        item: '<li><h3 class="title"></h3><p class="outer-authors">Authors: <span class="authors"><span></p><p class="outer-notes">Notes: <span class="notes"></span></p><b class="category"></b> <b class="series"></b></li>'
-      };
+fetch('books.json').then(response => {
+  return response.json();
+}).then(data => render(data));
 
-      var booksList = new List('books', options, data);
+function render(data) {
+  var options = {
+    valueNames: ['title', 'authors', 'category', 'series', 'notes'],
+    item: '<li><h3 class="title"></h3><p class="outer-authors">Authors: <span class="authors"><span></p><p class="outer-notes">Notes: <span class="notes"></span></p><b class="category"></b> <b class="series"></b></li>'
+  };
 
-      booksList.on('updated', function(list) {
-        document.querySelector('.count').innerHTML = list.matchingItems.length;
-      });
-      booksList.update();
+  var booksList = new List('books', options, data);
 
-      document.querySelector('#sort-category').addEventListener('click', function(e) {
-        booksList.sort('category', {order: 'desc'});
-      });
-      document.querySelector('#sort-series').addEventListener('click', function(e) {
-        booksList.sort('series', {order: 'desc'});
-      });
+  booksList.on('updated', function(list) {
+    document.querySelector('.count').innerHTML = list.matchingItems.length;
+  });
+  booksList.update();
 
-      document.querySelectorAll('.notes').forEach(function(element) {
-        if (element.innerHTML == '') {
-          element.parentNode.style.display = 'none';
-        }
-      });
+  document.querySelector('#sort-category').addEventListener('click', function(e) {
+    booksList.sort('category', {order: 'desc'});
+  });
+  document.querySelector('#sort-series').addEventListener('click', function(e) {
+    booksList.sort('series', {order: 'desc'});
+  });
 
-      document.querySelectorAll('.series').forEach(function(element) {
-        if (element.innerHTML == '') {
-          element.style.display = 'none';
-        }
-      });
+  document.querySelectorAll('.notes').forEach(function(element) {
+    if (element.innerHTML == '') {
+      element.parentNode.style.display = 'none';
     }
-  }
-};
-xhr.send();
+  });
+
+  document.querySelectorAll('.series').forEach(function(element) {
+    if (element.innerHTML == '') {
+      element.style.display = 'none';
+    }
+  });
+}
