@@ -10,8 +10,6 @@
     <meta name="author" content="Albin Larsson" />
 
     <link rel="stylesheet" href="style.css" />
-    <script src="list.min.js"></script>
-    <script src="app.js"></script>
   </head>
   <body>
     <h1>My Books</h1>
@@ -25,8 +23,19 @@
           <button class="sort" id="sort-category" style="border: 1px solid #FF4747;">subject</button>
         </div>
       </div>
-      <ul class="list"></ul>
+      <ul class="list" contextmenu="book-menu"></ul>
     </div>
     <span class="count"></span>
+
+    <menu type="context" id="book-menu">
+      <menuitem label="Go to byabbe.se" id="byabbe-se"></menuitem>
+      <menu label="Search">
+        <menuitem label="Bokus" id="bokus-search"></menuitem>
+        <menuitem label="Amazon" id="amazon-search"></menuitem>
+      </menu>
+    </menu>
+
+    <script src="list.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>

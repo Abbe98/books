@@ -38,3 +38,37 @@ function render(data) {
     }
   });
 }
+
+document.querySelector('#byabbe-se').addEventListener('click', e => {
+  document.location = 'https://byabbe.se';
+});
+
+let currentContext = '';
+document.querySelectorAll('.list')[0].addEventListener('contextmenu', e => {
+  let target = e.target;
+  let bookContainer;
+  switch (e.target.tagName) {
+    case 'SPAN':
+      currentContext = target.parentElement.parentElement.children[0].innerText;
+      break;
+    case 'P':
+      currentContext = target.parentElement.children[0].innerText;
+      break;
+    case 'B':
+      currentContext = target.parentElement.children[0].innerText;
+      break;
+    case 'LI':
+      currentContext = target.children[0].innerText;
+      break;
+    default:
+      currentContext = target.innerText;
+  }
+});
+
+document.querySelector('#amazon-search').addEventListener('click', e => {
+  document.location = 'https://www.amazon.com/s?field-keywords=' + currentContext;
+});
+
+document.querySelector('#bokus-search').addEventListener('click', e => {
+  document.location = 'http://www.bokus.com/cgi-bin/product_search.cgi?search_word=' + currentContext;
+});
